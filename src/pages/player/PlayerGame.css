@@ -25,6 +25,11 @@
   max-width: 400px;
 }
 
+.photo {
+  height: 90%;
+  width: 90%;
+}
+
 @media (min-width: 640px) {
   .answer-input {
     margin: 20px;
