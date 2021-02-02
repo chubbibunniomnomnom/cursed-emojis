@@ -269,7 +269,7 @@ class PlayerGame extends Component {
           <form onSubmit={this.handleSubmitAnswerClick}>
             <div>
               <h1>come up with a caption or scenario for the followiong emoji:</h1>
-              <img src={promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
+              <img src={this.promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
               <input
                 className="answer-input"
                 type="text"
@@ -318,7 +318,7 @@ class PlayerGame extends Component {
         let answersCount = 0;
         return (
           <div>
-            <img src={promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
+            <img src={this.promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
             <h2>Which one do you like more?</h2>
             {this.state.votingOptions.map((voteOption) => {
               let buttonText = voteOption;
