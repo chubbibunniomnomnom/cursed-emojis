@@ -447,7 +447,7 @@ class HostsGame extends Component {
         let answersCount = 0;
         return (
           <div>
-            <img src={this.promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
+            <img src={this.promptToImage(this.state.prompt)} />
             <div className="answers">
               {this.state.votingOptions.map((voteOption) => {
                 let cardClasses = "card";
@@ -475,7 +475,7 @@ class HostsGame extends Component {
         let count = 0;
         return (
           <div>
-            <img src={this.promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
+            <img src={this.promptToImage(this.state.prompt)} />
             <div className="answers">
               {this.state.votingResults.map((voteResult) => {
                 let cardClasses = "card";
