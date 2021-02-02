@@ -614,7 +614,7 @@ class HostsGame extends Component {
         let answersCount = 0;
         return (
           <div>
-            <img className="photo" src={this.promptToImage(this.state.prompt)} />
+            <img src={this.promptToImage(this.state.prompt)} />
             <div className="answers">
               {this.state.votingOptions.map((voteOption) => {
                 let cardClasses = "card";
