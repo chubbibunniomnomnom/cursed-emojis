@@ -79,6 +79,11 @@
   max-width: 700px;
 }
 
+.photo {
+  height: 400px;
+  width: 400px;
+}
+
 .popular-answer-submitter {
   color: whitesmoke;
 }
