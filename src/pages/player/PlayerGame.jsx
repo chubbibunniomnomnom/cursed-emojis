@@ -7,6 +7,10 @@ import holdPhoneMidImage from "../../images/hold-phone-mid.png";
 import holdPhoneUpImage from "../../images/hold-phone-up.png";
 import chargingPunchImage from "../../images/starting-punch.png";
 import completedPunchImage from "../../images/completed-punch.png";
+import emoji1 from "../../images/emoji1.png";
+import emoji2 from "../../images/emoji2.png";
+import emoji3 from "../../images/emoji3.png";
+import emoji4 from "../../images/emoji4.png";
 
 class PlayerGame extends Component {
   state = { phase: "WAITING_TO_START", answer: "" };
@@ -118,6 +122,7 @@ class PlayerGame extends Component {
           <form onSubmit={this.handleSubmitAnswerClick}>
             <div>
               <img src={this.state.promptsToAnswer[this.state.currentPromptNumber]} />
+              <img src={emoji1} />
               <input
                 className="answer-input"
                 type="text"
