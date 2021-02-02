@@ -27,7 +27,7 @@ const prompts = [
   "emoji22",
   "emoji23",
   "emoji24",
-  "meoji25",
+  "emoji25",
   "emoji26",
   "emoji27",
   "emoji28",
