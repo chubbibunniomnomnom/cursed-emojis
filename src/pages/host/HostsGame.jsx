@@ -47,62 +47,67 @@ import emoji34 from "../../images/emoji34.png";
 import emoji35 from "../../images/emoji35.png";
 import emoji36 from "../../images/emoji36.png";
 import emoji37 from "../../images/emoji37.png";
+import emoji38 from "../../images/emoji38.png";
+import emoji39 from "../../images/emoji39.png";
+import emoji40 from "../../images/emoji40.png";
+import emoji41 from "../../images/emoji41.png";
+import emoji42 from "../../images/emoji42.png";
+import emoji43 from "../../images/emoji43.png";
+import emoji44 from "../../images/emoji44.png";
+import emoji45 from "../../images/emoji45.png";
+import emoji46 from "../../images/emoji46.png";
+import emoji47 from "../../images/emoji47.png";
+import emoji48 from "../../images/emoji48.png";
+import emoji49 from "../../images/emoji49.png";
+import emoji50 from "../../images/emoji50.png";
+import emoji51 from "../../images/emoji51.png";
+import emoji52 from "../../images/emoji52.png";
+import emoji53 from "../../images/emoji53.png";
+import emoji54 from "../../images/emoji54.png";
+import emoji55 from "../../images/emoji55.png";
+import emoji56 from "../../images/emoji56.png";
+import emoji57 from "../../images/emoji57.png";
+import emoji58 from "../../images/emoji58.png";
+import emoji59 from "../../images/emoji59.png";
+import emoji60 from "../../images/emoji60.png";
+import emoji61 from "../../images/emoji61.png";
+import emoji62 from "../../images/emoji62.png";
+import emoji63 from "../../images/emoji63.png";
+import emoji64 from "../../images/emoji64.png";
+import emoji65 from "../../images/emoji65.png";
+import emoji66 from "../../images/emoji66.png";
+import emoji67 from "../../images/emoji67.png";
+import emoji68 from "../../images/emoji68.png";
+import emoji69 from "../../images/emoji69.png";
+import emoji70 from "../../images/emoji70.png";
+import emoji71 from "../../images/emoji71.png";
+import emoji72 from "../../images/emoji72.png";
+import emoji73 from "../../images/emoji73.png";
+import emoji74 from "../../images/emoji74.png";
+import emoji75 from "../../images/emoji75.png";
+import emoji76 from "../../images/emoji76.png";
+import emoji77 from "../../images/emoji77.png";
+import emoji78 from "../../images/emoji78.png";
+import emoji79 from "../../images/emoji79.png";
+import emoji80 from "../../images/emoji80.png";
+import emoji81 from "../../images/emoji81.png";
+import emoji82 from "../../images/emoji82.png";
+import emoji83 from "../../images/emoji83.png";
+import emoji84 from "../../images/emoji84.png";
+import emoji85 from "../../images/emoji85.png";
+import emoji86 from "../../images/emoji86.png";
+import emoji87 from "../../images/emoji87.png";
+import emoji88 from "../../images/emoji88.png";
+import emoji89 from "../../images/emoji89.png";
+import emoji90 from "../../images/emoji90.png";
+import emoji91 from "../../images/emoji91.png";
 
 class HostsGame extends Component {
   state = {
     phase: "SHOW_INSTRUCTIONS",
     shakeImageSrc: holdPhoneMidImage,
   };
-  // Test state
-  // state = {
-  //   phase: "VOTING_RESULTS_PHASE",
-  //   prompt: "How are you doing today?",
-  //   votingOptions: ["I'm doing well", "Not so great"],
-  //   votingResults: [
-  //     { answer: "I'm doing well", submitter: "Allan", votes: [], state: "LOSER" },
-  //     {
-  //       answer: "Not so great",
-  //       points: 800,
-  //       submitter: "Simon",
-  //       votes: ["Allan", "Bobby", "Simon"],
-  //       state: "WINNER",
-  //       quiplash: true,
-  //     },
-  //   ],
-  // };
-  // state = {
-  //   phase: "SHOW_PLAYER_POINTS",
-  //   playersAndPoints: [
-  //     ["simon", 1500],
-  //     ["alan", 1000],
-  //     ["simon 1234", 300],
-  //     ["bob", 0],
-  //   ],
-  //   popularAnswers: [
-  //     { answer: "aha", submitter: "simon" },
-  //     {
-  //       answer:
-  //         "I'm baby dIY bushwick pok pok gentrify, prism seitan poke ramps ennui crucifix locavore vinyl pabst pinterest. Locavore hell of migas cardigan, taiyaki shoreditch beard glossier health goth chillwave four loko paleo. Pitchfork freegan letterpress man bun helvetica taiyaki organic venmo 90's hammock. Prism XOXO master cleanse, sartorial lyft twee irony hexagon flannel roof party hammock. Actually iceland health goth tattooed. Mlkshk four dollar toast four loko messenger bag, readymade waistcoat gentrify tacos franzen iceland fixie blog paleo.",
-  //       submitter: "bob",
-  //     },
-  //   ],
-  // };
-  // state = {
-  //   phase: "SHOW_SHAKE_RESULTS",
-  //   shakeImageSrc: holdPhoneUpImage,
-  //   gameWinner: "Simon",
-  //   shakePlayers: [
-  //     { name: "Simon", shakes: 1 },
-  //     { name: "Jeff", shakes: 2 },
-  //     { name: "Ness", shakes: 3 },
-  //     { name: "Simon2", shakes: 1 },
-  //     { name: "Jeff2", shakes: 2 },
-  //     { name: "Ness2", shakes: 3 },
-  //     { name: "Jeff3", shakes: 2 },
-  //     { name: "Ness3", shakes: 3 },
-  //   ],
-  // };
-
+  
   componentDidMount() {
     this.onStartNewGameNewPlayersClick = this.onStartNewGameNewPlayersClick.bind(this);
     const socket = getHostSocket();
@@ -361,6 +366,168 @@ class HostsGame extends Component {
    if (str === "emoji37") {
       return emoji37;
     }
+    if (str === "emoji38") {
+      return emoji38;
+    }
+    if (str === "emoji39") {
+      return emoji39;
+    }
+    if (str === "emoji40") {
+      return emoji40;
+    }
+    if (str === "emoji41") {
+      return emoji41;
+    }
+   if (str === "emoji42") {
+      return emoji42;
+    }
+   if (str === "emoji43") {
+      return emoji43;
+    }
+   if (str === "emoji44") {
+      return emoji44;
+    }
+   if (str === "emoji45") {
+      return emoji45;
+    }
+   if (str === "emoji46") {
+      return emoji46;
+    }
+   if (str === "emoji47") {
+      return emoji47;
+    }
+    if (str === "emoji48") {
+      return emoji48;
+    }
+    if (str === "emoji49") {
+      return emoji49;
+    }
+    if (str === "emoji50") {
+      return emoji50;
+    }
+    if (str === "emoji51") {
+      return emoji51;
+    }
+   if (str === "emoji52") {
+      return emoji52;
+    }
+   if (str === "emoji53") {
+      return emoji53;
+    }
+   if (str === "emoji54") {
+      return emoji54;
+    }
+   if (str === "emoji55") {
+      return emoji55;
+    }
+   if (str === "emoji56") {
+      return emoji56;
+    }
+   if (str === "emoji57") {
+      return emoji57;
+    }
+    if (str === "emoji58") {
+      return emoji58;
+    }
+    if (str === "emoji59") {
+      return emoji59;
+    }
+    if (str === "emoji60") {
+      return emoji60;
+    }
+    if (str === "emoji61") {
+      return emoji61;
+    }
+   if (str === "emoji62") {
+      return emoji62;
+    }
+   if (str === "emoji63") {
+      return emoji63;
+    }
+   if (str === "emoji64") {
+      return emoji64;
+    }
+   if (str === "emoji65") {
+      return emoji65;
+    }
+   if (str === "emoji66") {
+      return emoji66;
+    }
+   if (str === "emoji67") {
+      return emoji67;
+    }
+    if (str === "emoji68") {
+      return emoji68;
+    }
+    if (str === "emoji69") {
+      return emoji69;
+    }
+    if (str === "emoji70") {
+      return emoji70;
+    }
+    if (str === "emoji71") {
+      return emoji71;
+    }
+   if (str === "emoji72") {
+      return emoji72;
+    }
+   if (str === "emoji73") {
+      return emoji73;
+    }
+   if (str === "emoji74") {
+      return emoji74;
+    }
+   if (str === "emoji75") {
+      return emoji75;
+    }
+   if (str === "emoji76") {
+      return emoji76;
+    }
+   if (str === "emoji77") {
+      return emoji77;
+    }
+    if (str === "emoji78") {
+      return emoji78;
+    }
+    if (str === "emoji79") {
+      return emoji79;
+    }
+    if (str === "emoji80") {
+      return emoji80;
+    }
+    if (str === "emoji81") {
+      return emoji81;
+    }
+   if (str === "emoji82") {
+      return emoji82;
+    }
+   if (str === "emoji83") {
+      return emoji83;
+    }
+   if (str === "emoji84") {
+      return emoji84;
+    }
+   if (str === "emoji85") {
+      return emoji85;
+    }
+   if (str === "emoji86") {
+      return emoji86;
+    }
+   if (str === "emoji87") {
+      return emoji87;
+    }
+    if (str === "emoji88") {
+      return emoji88;
+    }
+    if (str === "emoji89") {
+      return emoji89;
+    }
+    if (str === "emoji90") {
+      return emoji90;
+    }
+    if (str === "emoji91") {
+      return emoji91;
+    }
   }
 
   onStartNewGameNewPlayersClick() {
@@ -447,7 +614,7 @@ class HostsGame extends Component {
         let answersCount = 0;
         return (
           <div>
-            <img src={this.promptToImage(this.state.prompt)} />
+            <img className="photo" src={this.promptToImage(this.state.prompt)} />
             <div className="answers">
               {this.state.votingOptions.map((voteOption) => {
                 let cardClasses = "card";
