@@ -41,6 +41,18 @@ class PlayerGame extends Component {
     this.takeSelfieInputRef = React.createRef();
     window.addEventListener("devicemotion", this.handleMotion);
   }
+  
+  promptToImage(str) {
+    if (str === "emoji1") {
+      return emoji1;
+    }
+    if (str === "emoji2") {
+      return emoji2;
+    }
+    if (str === "emoji3") {
+      return emoji3;
+    }
+  }
 
   componentDidMount() {
     const socket = getPlayerSocket();
@@ -121,8 +133,7 @@ class PlayerGame extends Component {
         return (
           <form onSubmit={this.handleSubmitAnswerClick}>
             <div>
-              <img src={this.state.promptsToAnswer[this.state.currentPromptNumber]} />
-              <img src={emoji1} />
+              <img src={promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
               <input
                 className="answer-input"
                 type="text"
