@@ -537,7 +537,9 @@ class PlayerGame extends Component {
           <div>
             {/*<img src={this.promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />*/}
             {/*<img src={this.promptToImage(this.state.prompt)} />*/}
+            <h2>  </h2>
             <h2>Which one do you like more?</h2>
+            <h2>  </h2>
             {this.state.votingOptions.map((voteOption) => {
               let buttonText = voteOption;
               if (voteOption.startsWith("data:")) {
