@@ -119,7 +119,7 @@ class PlayerGame extends Component {
             <div>
               //<h1 dangerouslySetInnerHTML={{ __html: this.state.promptsToAnswer[this.state.currentPromptNumber] }}></h1>
               <img 
-              src=this.state.promptsToAnswer[this.state.currentPromptNumber]
+              src={this.state.promptsToAnswer[this.state.currentPromptNumber]}
               alt="new"/>
               <input
                 className="answer-input"
