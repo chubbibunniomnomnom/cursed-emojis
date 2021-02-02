@@ -161,7 +161,7 @@ class PlayerGame extends Component {
       return emoji28;
     }
    if (str === "emoji29") {
-      return emoj29;
+      return emoji29;
     }
    if (str === "emoji30") {
       return emoji30;
