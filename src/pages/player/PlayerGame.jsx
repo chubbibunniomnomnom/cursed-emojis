@@ -117,7 +117,6 @@ class PlayerGame extends Component {
         return (
           <form onSubmit={this.handleSubmitAnswerClick}>
             <div>
-              //<h1 dangerouslySetInnerHTML={{ __html: this.state.promptsToAnswer[this.state.currentPromptNumber] }}></h1>
               <img src={this.state.promptsToAnswer[this.state.currentPromptNumber]} />
               <input
                 className="answer-input"
