@@ -11,6 +11,39 @@ import emoji1 from "../../images/emoji1.png";
 import emoji2 from "../../images/emoji2.png";
 import emoji3 from "../../images/emoji3.png";
 import emoji4 from "../../images/emoji4.png";
+import emoji5 from "../../images/emoji5.png";
+import emoji6 from "../../images/emoji6.png";
+import emoji7 from "../../images/emoji7.png";
+import emoji8 from "../../images/emoji8.png";
+import emoji9 from "../../images/emoji9.png";
+import emoji10 from "../../images/emoji10.png";
+import emoji11 from "../../images/emoji11.png";
+import emoji12 from "../../images/emoji12.png";
+import emoji13 from "../../images/emoji13.png";
+import emoji14 from "../../images/emoji14.png";
+import emoji15 from "../../images/emoji15.png";
+import emoji16 from "../../images/emoji16.png";
+import emoji17 from "../../images/emoji17.png";
+import emoji18 from "../../images/emoji18.png";
+import emoji19 from "../../images/emoji19.png";
+import emoji20 from "../../images/emoji20.png";
+import emoji21 from "../../images/emoji21.png";
+import emoji22 from "../../images/emoji22.png";
+import emoji23 from "../../images/emoji23.png";
+import emoji24 from "../../images/emoji24.png";
+import emoji25 from "../../images/emoji25.png";
+import emoji26 from "../../images/emoji26.png";
+import emoji27 from "../../images/emoji27.png";
+import emoji28 from "../../images/emoji28.png";
+import emoji29 from "../../images/emoji29.png";
+import emoji30 from "../../images/emoji30.png";
+import emoji31 from "../../images/emoji31.png";
+import emoji32 from "../../images/emoji32.png";
+import emoji33 from "../../images/emoji33.png";
+import emoji34 from "../../images/emoji34.png";
+import emoji35 from "../../images/emoji35.png";
+import emoji36 from "../../images/emoji36.png";
+import emoji37 from "../../images/emoji37.png";
 
 class PlayerGame extends Component {
   state = { phase: "WAITING_TO_START", answer: "" };
@@ -52,7 +85,109 @@ class PlayerGame extends Component {
     if (str === "emoji3") {
       return emoji3;
     }
-  }
+    if (str === "emoji4") {
+      return emoji4;
+    }
+    if (str === "emoji5") {
+      return emoji5;
+    }
+    if (str === "emoji6") {
+      return emoji6;
+    }
+    if (str === "emoji7") {
+      return emoji7;
+    }
+    if (str === "emoji8") {
+      return emoji8;
+    }
+    if (str === "emoji9") {
+      return emoji9;
+    }
+    if (str === "emoji10") {
+      return emoji10;
+    }
+    if (str === "emoji11") {
+      return emoji11;
+    }
+    if (str === "emoji12") {
+      return emoji12;
+    }
+    if (str === "emoji13") {
+      return emoji13;
+    }
+    if (str === "emoji14") {
+      return emoji14;
+    }
+    if (str === "emoji15") {
+      return emoji15;
+    }
+    if (str === "emoji16") {
+      return emoji16;
+    }
+    if (str === "emoji17") {
+      return emoji17;
+    }
+    if (str === "emoji18") {
+      return emoji18;
+    }
+    if (str === "emoji19") {
+      return emoji19;
+    }
+    if (str === "emoji20") {
+      return emoji20;
+    }
+    if (str === "emoji21") {
+      return emoji21;
+    }
+    if (str === "emoji22") {
+      return emoji22;
+    }
+    if (str === "emoji23") {
+      return emoji23;
+    }
+    if (str === "emoji24") {
+      return emoji24;
+    }
+    if (str === "emoji25") {
+      return emoji25;
+    }
+    if (str === "emoji26") {
+      return emoji26;
+   }
+    if (str === "emoji27") {
+      return emoji27;
+    }
+   if (str === "emoji28") {
+      return emoji28;
+    }
+   if (str === "emoji29") {
+      return emoj29;
+    }
+   if (str === "emoji30") {
+      return emoji30;
+    }
+   if (str === "emoji31") {
+      return emoji31;
+    }
+   if (str === "emoji32") {
+      return emoji32;
+    }
+   if (str === "emoji33") {
+      return emoji33;
+    }
+   if (str === "emoji34") {
+      return emoji34;
+    }
+   if (str === "emoji35") {
+      return emoji35;
+    }
+   if (str === "emoji36") {
+      return emoji36;
+    }
+   if (str === "emoji37") {
+      return emoji37;
+    }
+ }
 
   componentDidMount() {
     const socket = getPlayerSocket();
@@ -133,6 +268,7 @@ class PlayerGame extends Component {
         return (
           <form onSubmit={this.handleSubmitAnswerClick}>
             <div>
+              <h1>come up with a caption or scenario for the followiong emoji:</h1>
               <img src={promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
               <input
                 className="answer-input"
@@ -182,7 +318,7 @@ class PlayerGame extends Component {
         let answersCount = 0;
         return (
           <div>
-            <h1 dangerouslySetInnerHTML={{ __html: this.state.prompt }}></h1>
+            <img src={promptToImage(this.state.promptsToAnswer[this.state.currentPromptNumber])} />
             <h2>Which one do you like more?</h2>
             {this.state.votingOptions.map((voteOption) => {
               let buttonText = voteOption;
