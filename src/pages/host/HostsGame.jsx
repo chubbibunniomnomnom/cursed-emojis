@@ -145,7 +145,7 @@ class HostsGame extends Component {
         expectedNumberOfVotes,
         receivedNumberOfVotes: 0,
       });
-      speakText(onePromptAndAnswers.prompt);
+      {*/speakText(onePromptAndAnswers.prompt);*?}
       speakText(
         `${getSpokenAnswer(onePromptAndAnswers.answers[0])}, or, ${getSpokenAnswer(
           onePromptAndAnswers.answers[1],
@@ -642,7 +642,7 @@ class HostsGame extends Component {
         let count = 0;
         return (
           <div>
-            <img src={this.promptToImage(this.state.prompt)} />
+            <img className="pic" src={this.promptToImage(this.state.prompt)} />
             <div className="answers">
               {this.state.votingResults.map((voteResult) => {
                 let cardClasses = "card";
