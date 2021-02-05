@@ -145,7 +145,6 @@ class HostsGame extends Component {
         expectedNumberOfVotes,
         receivedNumberOfVotes: 0,
       });
-      {*/speakText(onePromptAndAnswers.prompt);*?}
       speakText(
         `${getSpokenAnswer(onePromptAndAnswers.answers[0])}, or, ${getSpokenAnswer(
           onePromptAndAnswers.answers[1],
