@@ -23,7 +23,6 @@
 .answers {
   display: flex;
   justify-content: center;
-  text-size: medium;
 }
 
 .wrapper {
