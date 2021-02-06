@@ -101,15 +101,15 @@ import emoji88 from "../../images/emoji88.png";
 import emoji89 from "../../images/emoji89.png";
 import emoji90 from "../../images/emoji90.png";
 import emoji91 from "../../images/emoji91.png";
-import emoji82 from "../../images/emoji92.png";
-import emoji83 from "../../images/emoji93.png";
-import emoji84 from "../../images/emoji94.png";
-import emoji85 from "../../images/emoji95.png";
-import emoji86 from "../../images/emoji96.png";
-import emoji87 from "../../images/emoji97.png";
-import emoji88 from "../../images/emoji98.png";
-import emoji89 from "../../images/emoji99.png";
-import emoji90 from "../../images/emoji100.png";
+import emoji92 from "../../images/emoji92.png";
+import emoji93 from "../../images/emoji93.png";
+import emoji94 from "../../images/emoji94.png";
+import emoji95 from "../../images/emoji95.png";
+import emoji96 from "../../images/emoji96.png";
+import emoji97 from "../../images/emoji97.png";
+import emoji98 from "../../images/emoji98.png";
+import emoji99 from "../../images/emoji99.png";
+import emoji100 from "../../images/emoji100.png";
 
 class HostsGame extends Component {
   state = {
