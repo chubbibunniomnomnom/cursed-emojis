@@ -95,4 +95,13 @@ const prompts = [
   "emoji89",
   "emoji90",
   "emoji91"
+  "emoji92",
+  "emoji93",
+  "emoji94",
+  "emoji95",
+  "emoji96",
+  "emoji97",
+  "emoji98",
+  "emoji99",
+  "emoji100",
 ];
