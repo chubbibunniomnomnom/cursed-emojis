@@ -98,7 +98,15 @@ import emoji88 from "../../images/emoji88.png";
 import emoji89 from "../../images/emoji89.png";
 import emoji90 from "../../images/emoji90.png";
 import emoji91 from "../../images/emoji91.png";
-
+import emoji92 from "../../images/emoji92.png";
+import emoji93 from "../../images/emoji93.png";
+import emoji94 from "../../images/emoji94.png";
+import emoji95 from "../../images/emoji95.png";
+import emoji96 from "../../images/emoji96.png";
+import emoji97 from "../../images/emoji97.png";
+import emoji98 from "../../images/emoji98.png";
+import emoji99 from "../../images/emoji99.png";
+import emoji100 from "../../images/emoji100.png";
 
 class PlayerGame extends Component {
   state = { phase: "WAITING_TO_START", answer: "" };
@@ -403,6 +411,33 @@ class PlayerGame extends Component {
     }
     if (str === "emoji91") {
       return emoji91;
+    }
+    if (str === "emoji92") {
+      return emoji92;
+    }
+   if (str === "emoji93") {
+      return emoji93;
+    }
+   if (str === "emoji94") {
+      return emoji94;
+    }
+   if (str === "emoji95") {
+      return emoji95;
+    }
+   if (str === "emoji96") {
+      return emoji96;
+    }
+   if (str === "emoji97") {
+      return emoji97;
+    }
+    if (str === "emoji98") {
+      return emoji98;
+    }
+    if (str === "emoji99") {
+      return emoji99;
+    }
+    if (str === "emoji100") {
+      return emoji100;
     }
  }
 
