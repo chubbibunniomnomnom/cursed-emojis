@@ -1,4 +1,4 @@
-# Quiplash-JS
+# Cursed Emojis!
 
 A creative word-smithing party game for 3-8 players. A recreation of the Jackbox game Quiplash, using javascript.
 
