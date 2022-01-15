@@ -107,15 +107,15 @@ import emoji97 from "../../images/emoji97.png";
 import emoji98 from "../../images/emoji98.png";
 import emoji99 from "../../images/emoji99.png";
 import emoji100 from "../../images/emoji100.png";
-import emoji101 from "../../images/emoji101.png";
-import emoji102 from "../../images/emoji102.png";
-import emoji103 from "../../images/emoji103.png";
-import emoji104 from "../../images/emoji104.png";
-import emoji105 from "../../images/emoji105.png";
-import emoji106 from "../../images/emoji106.png";
-import emoji107 from "../../images/emoji107.png";
-import emoji108 from "../../images/emoji108.png";
-import emoji109 from "../../images/emoji109.png";
+//import emoji101 from "../../images/emoji101.png";
+//import emoji102 from "../../images/emoji102.png";
+//import emoji103 from "../../images/emoji103.png";
+//import emoji104 from "../../images/emoji104.png";
+//import emoji105 from "../../images/emoji105.png";
+//import emoji106 from "../../images/emoji106.png";
+//import emoji107 from "../../images/emoji107.png";
+//import emoji108 from "../../images/emoji108.png";
+//import emoji109 from "../../images/emoji109.png";
 //import emoji110 from "../../images/emoji110.png";
 import emoji111 from "../../images/emoji111.png";
 import emoji112 from "../../images/emoji112.png";
@@ -515,33 +515,33 @@ class PlayerGame extends Component {
     if (str === "emoji100") {
       return emoji100;
     }
-    if (str === "emoji101") {
-      return emoji101;
-    }
-    if (str === "emoji102") {
-      return emoji102;
-    }
-    if (str === "emoji103") {
-      return emoji103;
-    }
-    if (str === "emoji104") {
-      return emoji104;
-    }
-    if (str === "emoji105") {
-      return emoji105;
-    }
-    if (str === "emoji106") {
-      return emoji106;
-    }
-    if (str === "emoji107") {
-      return emoji107;
-    }
-    if (str === "emoji108") {
-      return emoji108;
-    }
-    if (str === "emoji109") {
-      return emoji109;
-    }
+    //if (str === "emoji101") {
+      //return emoji101;
+    //}
+    //if (str === "emoji102") {
+      //return emoji102;
+    //}
+    //if (str === "emoji103") {
+      //return emoji103;
+    //}
+    //if (str === "emoji104") {
+      //return emoji104;
+    //}
+    //if (str === "emoji105") {
+      //return emoji105;
+    //}
+    //if (str === "emoji106") {
+      //return emoji106;
+    //}
+    //if (str === "emoji107") {
+      //return emoji107;
+    //}
+    //if (str === "emoji108") {
+      //return emoji108;
+    //}
+    //if (str === "emoji109") {
+      //return emoji109;
+    //}
     //if (str === "emoji110") {
       //return emoji110;
     //}
