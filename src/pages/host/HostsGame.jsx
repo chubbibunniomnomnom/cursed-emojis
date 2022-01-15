@@ -119,7 +119,7 @@ import emoji106 from "../../images/emoji106.png";
 import emoji107 from "../../images/emoji107.png";
 import emoji108 from "../../images/emoji108.png";
 import emoji109 from "../../images/emoji109.png";
-import emoji110 from "../../images/emoji110.png";
+//import emoji110 from "../../images/emoji110.png";
 import emoji111 from "../../images/emoji111.png";
 import emoji112 from "../../images/emoji112.png";
 import emoji113 from "../../images/emoji113.png";
@@ -666,9 +666,9 @@ class HostsGame extends Component {
     if (str === "emoji109") {
       return emoji109;
     }
-    if (str === "emoji110") {
-      return emoji110;
-    }
+    //if (str === "emoji110") {
+      //return emoji110;
+    //}
     if (str === "emoji111") {
       return emoji111;
     }
