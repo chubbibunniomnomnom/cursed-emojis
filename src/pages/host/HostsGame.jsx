@@ -126,7 +126,7 @@ import emoji113 from "../../images/emoji113.png";
 import emoji114 from "../../images/emoji114.png";
 import emoji115 from "../../images/emoji115.png";
 import emoji116 from "../../images/emoji116.png";
-import emoji117 from "../../images/emoji117png";
+import emoji117 from "../../images/emoji117.png";
 import emoji118 from "../../images/emoji118.png";
 import emoji119 from "../../images/emoji119.png";
 import emoji120 from "../../images/emoji120.png";
