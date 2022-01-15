@@ -169,5 +169,5 @@ const prompts = [
   "emoji173",
   "emoji174",
   "emoji175",
-  "emoji186"
+  "emoji176"
 ];
