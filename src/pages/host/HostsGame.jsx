@@ -110,6 +110,82 @@ import emoji97 from "../../images/emoji97.png";
 import emoji98 from "../../images/emoji98.png";
 import emoji99 from "../../images/emoji99.png";
 import emoji100 from "../../images/emoji100.png";
+import emoji101 from "../../images/emoji101.png";
+import emoji102 from "../../images/emoji102.png";
+import emoji103 from "../../images/emoji103.png";
+import emoji104 from "../../images/emoji104.png";
+import emoji105 from "../../images/emoji105.png";
+import emoji106 from "../../images/emoji106.png";
+import emoji107 from "../../images/emoji107.png";
+import emoji108 from "../../images/emoji108.png";
+import emoji109 from "../../images/emoji109.png";
+import emoji110 from "../../images/emoji110.png";
+import emoji111 from "../../images/emoji111.png";
+import emoji112 from "../../images/emoji112.png";
+import emoji113 from "../../images/emoji113.png";
+import emoji114 from "../../images/emoji114.png";
+import emoji115 from "../../images/emoji115.png";
+import emoji116 from "../../images/emoji116.png";
+import emoji117 from "../../images/emoji117png";
+import emoji118 from "../../images/emoji118.png";
+import emoji119 from "../../images/emoji119.png";
+import emoji120 from "../../images/emoji120.png";
+import emoji121 from "../../images/emoji121.png";
+import emoji122 from "../../images/emoji122.png";
+import emoji123 from "../../images/emoji123.png";
+import emoji124 from "../../images/emoji124.png";
+import emoji125 from "../../images/emoji125.png";
+import emoji126 from "../../images/emoji126.png";
+import emoji127 from "../../images/emoji127.png";
+import emoji128 from "../../images/emoji128.png";
+import emoji129 from "../../images/emoji129.png";
+import emoji130 from "../../images/emoji130.png";
+import emoji131 from "../../images/emoji131.png";
+import emoji132 from "../../images/emoji132.png";
+import emoji133 from "../../images/emoji133.png";
+import emoji134 from "../../images/emoji134.png";
+import emoji135 from "../../images/emoji135.png";
+import emoji136 from "../../images/emoji136.png";
+import emoji137 from "../../images/emoji137.png";
+import emoji138 from "../../images/emoji138.png";
+import emoji139 from "../../images/emoji139.png";
+import emoji140 from "../../images/emoji140.png";
+import emoji141 from "../../images/emoji141.png";
+import emoji142 from "../../images/emoji142.png";
+import emoji143 from "../../images/emoji143.png";
+import emoji144 from "../../images/emoji144.png";
+import emoji145 from "../../images/emoji145.png";
+import emoji146 from "../../images/emoji146.png";
+import emoji147 from "../../images/emoji147.png";
+import emoji148 from "../../images/emoji148.png";
+import emoji149 from "../../images/emoji149.png";
+import emoji150 from "../../images/emoji150.png";
+import emoji151 from "../../images/emoji151.png";
+import emoji152 from "../../images/emoji152.png";
+import emoji153 from "../../images/emoji153.png";
+import emoji154 from "../../images/emoji154.png";
+import emoji155 from "../../images/emoji155.png";
+import emoji156 from "../../images/emoji156.png";
+import emoji157 from "../../images/emoji157.png";
+import emoji158 from "../../images/emoji158.png";
+import emoji159 from "../../images/emoji159.png";
+import emoji160 from "../../images/emoji160.png";
+import emoji161 from "../../images/emoji161.png";
+import emoji162 from "../../images/emoji162.png";
+import emoji163 from "../../images/emoji163.png";
+import emoji164 from "../../images/emoji164.png";
+import emoji165 from "../../images/emoji165.png";
+import emoji166 from "../../images/emoji166.png";
+import emoji167 from "../../images/emoji167.png";
+import emoji168 from "../../images/emoji168.png";
+import emoji169 from "../../images/emoji169.png";
+import emoji170 from "../../images/emoji170.png";
+import emoji171 from "../../images/emoji171.png";
+import emoji172 from "../../images/emoji172.png";
+import emoji173 from "../../images/emoji173.png";
+import emoji174 from "../../images/emoji174.png";
+import emoji175 from "../../images/emoji175.png";
+import emoji176 from "../../images/emoji176.png";
 
 class HostsGame extends Component {
   state = {
@@ -562,6 +638,234 @@ class HostsGame extends Component {
     }
     if (str === "emoji100") {
       return emoji100;
+    }
+    if (str === "emoji101") {
+      return emoji101;
+    }
+    if (str === "emoji102") {
+      return emoji102;
+    }
+    if (str === "emoji103") {
+      return emoji103;
+    }
+    if (str === "emoji104") {
+      return emoji104;
+    }
+    if (str === "emoji105") {
+      return emoji105;
+    }
+    if (str === "emoji106") {
+      return emoji106;
+    }
+    if (str === "emoji107") {
+      return emoji107;
+    }
+    if (str === "emoji108") {
+      return emoji108;
+    }
+    if (str === "emoji109") {
+      return emoji109;
+    }
+    if (str === "emoji110") {
+      return emoji110;
+    }
+    if (str === "emoji111") {
+      return emoji111;
+    }
+    if (str === "emoji112") {
+      return emoji112;
+    }
+    if (str === "emoji113") {
+      return emoji113;
+    }
+    if (str === "emoji114") {
+      return emoji114;
+    }
+    if (str === "emoji115") {
+      return emoji115;
+    }
+    if (str === "emoji116") {
+      return emoji116;
+    }
+    if (str === "emoji117") {
+      return emoji117;
+    }
+    if (str === "emoji118") {
+      return emoji118;
+    }
+    if (str === "emoji119") {
+      return emoji119;
+    }
+    if (str === "emoji120") {
+      return emoji120;
+    }
+    if (str === "emoji121") {
+      return emoji121;
+    }
+    if (str === "emoji122") {
+      return emoji122;
+    }
+    if (str === "emoji123") {
+      return emoji123;
+    }
+    if (str === "emoji124") {
+      return emoji124;
+    }
+    if (str === "emoji125") {
+      return emoji125;
+    }
+    if (str === "emoji126") {
+      return emoji126;
+    }
+    if (str === "emoji127") {
+      return emoji127;
+    }
+    if (str === "emoji128") {
+      return emoji128;
+    }
+    if (str === "emoji129") {
+      return emoji129;
+    }
+    if (str === "emoji130") {
+      return emoji130;
+    }
+    if (str === "emoji131") {
+      return emoji131;
+    }
+    if (str === "emoji132") {
+      return emoji132;
+    }
+    if (str === "emoji133") {
+      return emoji133;
+    }
+    if (str === "emoji134") {
+      return emoji134;
+    }
+    if (str === "emoji135") {
+      return emoji135;
+    }
+    if (str === "emoji136") {
+      return emoji136;
+    }
+    if (str === "emoji137") {
+      return emoji137;
+    }
+    if (str === "emoji138") {
+      return emoji138;
+    }
+    if (str === "emoji139") {
+      return emoji139;
+    }
+    if (str === "emoji140") {
+      return emoji140;
+    }
+    if (str === "emoji141") {
+      return emoji141;
+    }
+    if (str === "emoji142") {
+      return emoji142;
+    }
+    if (str === "emoji143") {
+      return emoji143;
+    }
+    if (str === "emoji144") {
+      return emoji144;
+    }
+    if (str === "emoji145") {
+      return emoji145;
+    }
+    if (str === "emoji146") {
+      return emoji146;
+    }
+    if (str === "emoji147") {
+      return emoji147;
+    }
+    if (str === "emoji148") {
+      return emoji148;
+    }
+    if (str === "emoji149") {
+      return emoji149;
+    }
+    if (str === "emoji150") {
+      return emoji150;
+    }
+    if (str === "emoji151") {
+      return emoji151;
+    }
+    if (str === "emoji152") {
+      return emoji152;
+    }
+    if (str === "emoji153") {
+      return emoji153;
+    }
+    if (str === "emoji154") {
+      return emoji154;
+    }
+    if (str === "emoji155") {
+      return emoji155;
+    }
+    if (str === "emoji156") {
+      return emoji156;
+    }
+    if (str === "emoji157") {
+      return emoji157;
+    }
+    if (str === "emoji158") {
+      return emoji158;
+    }
+    if (str === "emoji159") {
+      return emoji159;
+    }
+    if (str === "emoji160") {
+      return emoji160;
+    }
+    if (str === "emoji161") {
+      return emoji161;
+    }
+    if (str === "emoji162") {
+      return emoji162;
+    }
+    if (str === "emoji163") {
+      return emoji163;
+    }
+    if (str === "emoji164") {
+      return emoji164;
+    }
+    if (str === "emoji165") {
+      return emoji165;
+    }
+    if (str === "emoji166") {
+      return emoji166;
+    }
+    if (str === "emoji167") {
+      return emoji167;
+    }
+    if (str === "emoji168") {
+      return emoji168;
+    }
+    if (str === "emoji169") {
+      return emoji169;
+    }
+    if (str === "emoji170") {
+      return emoji170;
+    }
+    if (str === "emoji171") {
+      return emoji171;
+    }
+    if (str === "emoji172") {
+      return emoji172;
+    }
+    if (str === "emoji173") {
+      return emoji173;
+    }
+    if (str === "emoji174") {
+      return emoji174;
+    }
+    if (str === "emoji175") {
+      return emoji175;
+    }
+    if (str === "emoji176") {
+      return emoji176;
     }
   }
 
